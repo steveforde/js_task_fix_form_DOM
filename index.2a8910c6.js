@@ -1,0 +1,2 @@
+document.querySelectorAll(".field-text").forEach(function(e){var t=e.getAttribute("name"),r=e.getAttribute("id"),a=document.createElement("label");a.className="field-label",a.setAttribute("for",r),a.textContent=t,e.after(a),e.placeholder=t.replace(/([a-z])([A-Z])/g,"$1 $2").replace(/([A-Z])([A-Z][a-z])/g,"$1 $2").replace(/^./,function(e){return e.toUpperCase()})});
+//# sourceMappingURL=index.2a8910c6.js.map
